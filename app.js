@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://Abin:abin123@cluster0.johtm7b.mongodb.net/covid1
 {useNewUrlParser:true})
 
 
-app.use("/api/course",covidRouter)
+app.use("/api/covid",covidRouter)
 app.listen(3001,()=>{
     console.log("server is running")
 })
